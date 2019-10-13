@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjQuickFix.Web", "PjQuickFix\PjQuickFix.Web.csproj", "{B836AE01-9109-429A-84C4-2090CE9DEADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjQuickFix.Application", "PjQuickFix.Application\PjQuickFix.Application.csproj", "{70B84463-D9E9-457B-9D50-55A29253DB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjQuickFix.CrossCutting", "PjQuickFix.CrossCutting\PjQuickFix.CrossCutting.csproj", "{D630096D-CAA1-40B1-99C2-1677656B097E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjQuickFix.Database", "PjQuickFix.Database\PjQuickFix.Database.csproj", "{FAC7A80B-BE71-44B7-9950-45CD3555F67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjQuickFix.Domain", "PjQuickFix.Domain\PjQuickFix.Domain.csproj", "{4F08AF06-86C7-42BE-AEC4-039790EAE0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjQuickFix.Infrastructure", "Pj.QuickFix.Infrastructure\PjQuickFix.Infrastructure.csproj", "{EC2B6302-B201-4A2C-A983-309DE61B5770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PjQuickFix.Model", "PjQuickFix.Model\PjQuickFix.Model.csproj", "{91A4820C-0533-4350-907D-F2772D93798B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B836AE01-9109-429A-84C4-2090CE9DEADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B836AE01-9109-429A-84C4-2090CE9DEADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B836AE01-9109-429A-84C4-2090CE9DEADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B836AE01-9109-429A-84C4-2090CE9DEADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B84463-D9E9-457B-9D50-55A29253DB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B84463-D9E9-457B-9D50-55A29253DB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B84463-D9E9-457B-9D50-55A29253DB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B84463-D9E9-457B-9D50-55A29253DB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D630096D-CAA1-40B1-99C2-1677656B097E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D630096D-CAA1-40B1-99C2-1677656B097E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D630096D-CAA1-40B1-99C2-1677656B097E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D630096D-CAA1-40B1-99C2-1677656B097E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC7A80B-BE71-44B7-9950-45CD3555F67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC7A80B-BE71-44B7-9950-45CD3555F67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC7A80B-BE71-44B7-9950-45CD3555F67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC7A80B-BE71-44B7-9950-45CD3555F67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F08AF06-86C7-42BE-AEC4-039790EAE0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F08AF06-86C7-42BE-AEC4-039790EAE0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F08AF06-86C7-42BE-AEC4-039790EAE0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F08AF06-86C7-42BE-AEC4-039790EAE0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2B6302-B201-4A2C-A983-309DE61B5770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2B6302-B201-4A2C-A983-309DE61B5770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2B6302-B201-4A2C-A983-309DE61B5770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2B6302-B201-4A2C-A983-309DE61B5770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A4820C-0533-4350-907D-F2772D93798B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A4820C-0533-4350-907D-F2772D93798B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A4820C-0533-4350-907D-F2772D93798B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A4820C-0533-4350-907D-F2772D93798B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF605709-2184-437C-BCAC-054271B9FA42}
+	EndGlobalSection
+EndGlobal

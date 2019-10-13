@@ -1,0 +1,434 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Application\\PjQuickFix.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj",
+        "projectName": "PjQuickFix.Infrastructure",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj"
+              },
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "ncrontab": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Application\\PjQuickFix.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Application\\PjQuickFix.Application.csproj",
+        "projectName": "PjQuickFix.Application",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Application\\PjQuickFix.Application.csproj",
+        "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj"
+              },
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Database\\PjQuickFix.Database.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Database\\PjQuickFix.Database.csproj"
+              },
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
+        "projectName": "PjQuickFix.CrossCutting",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Database\\PjQuickFix.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Database\\PjQuickFix.Database.csproj",
+        "projectName": "PjQuickFix.Database",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Database\\PjQuickFix.Database.csproj",
+        "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj"
+              },
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "DotNetCore.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.12.0, )"
+            },
+            "DotNetCore.Repositories": {
+              "target": "Package",
+              "version": "[9.12.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
+        "projectName": "PjQuickFix.Domain",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
+        "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "CronEspresso": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj",
+        "projectName": "PjQuickFix.Model",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj",
+        "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "DotNetCore.Validation": {
+              "target": "Package",
+              "version": "[9.12.0, )"
+            },
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

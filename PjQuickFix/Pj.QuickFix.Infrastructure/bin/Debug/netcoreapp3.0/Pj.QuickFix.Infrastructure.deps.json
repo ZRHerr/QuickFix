@@ -1,0 +1,128 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Pj.QuickFix.Infrastructure/1.0.0": {
+        "dependencies": {
+          "PjQuickFix.Model": "1.0.0"
+        },
+        "runtime": {
+          "Pj.QuickFix.Infrastructure.dll": {}
+        }
+      },
+      "DotNetCore.Extensions/9.12.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/DotNetCore.Extensions.dll": {
+            "assemblyVersion": "9.12.0.0",
+            "fileVersion": "9.12.0.0"
+          }
+        }
+      },
+      "DotNetCore.Objects/9.12.0": {
+        "dependencies": {
+          "DotNetCore.Extensions": "9.12.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DotNetCore.Objects.dll": {
+            "assemblyVersion": "9.12.0.0",
+            "fileVersion": "9.12.0.0"
+          }
+        }
+      },
+      "DotNetCore.Validation/9.12.0": {
+        "dependencies": {
+          "DotNetCore.Objects": "9.12.0",
+          "FluentValidation": "8.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/DotNetCore.Validation.dll": {
+            "assemblyVersion": "9.12.0.0",
+            "fileVersion": "9.12.0.0"
+          }
+        }
+      },
+      "FluentValidation/8.5.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.5.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {},
+      "PjQuickFix.CrossCutting/1.0.0": {
+        "runtime": {
+          "PjQuickFix.CrossCutting.dll": {}
+        }
+      },
+      "PjQuickFix.Model/1.0.0": {
+        "dependencies": {
+          "DotNetCore.Validation": "9.12.0",
+          "PjQuickFix.CrossCutting": "1.0.0"
+        },
+        "runtime": {
+          "PjQuickFix.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pj.QuickFix.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetCore.Extensions/9.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L5y5SIUtUeslGbZYXrUympy2WZpfepmyhn/BnKMBR7206awcu7zoO+tjNa+yfzC8WnQSC94pCssVy+ihS/NwIw==",
+      "path": "dotnetcore.extensions/9.12.0",
+      "hashPath": "dotnetcore.extensions.9.12.0.nupkg.sha512"
+    },
+    "DotNetCore.Objects/9.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qg8VkyGEQlLLIsPAzgDVd9kC20a3O/qmEXjGbVdPvM+zcMRIR2jgyMnUL+OaUJ8xjf8Ddmk7qpX/iqd21+jd2A==",
+      "path": "dotnetcore.objects/9.12.0",
+      "hashPath": "dotnetcore.objects.9.12.0.nupkg.sha512"
+    },
+    "DotNetCore.Validation/9.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fT1kMRA0LyXsTJ2cECtSVh3Oq5A2K2QBEMWgu18vLKLGtqUgt+zJgZC1tIwCk7vJoZh3Asip9hKA+J3coEObbw==",
+      "path": "dotnetcore.validation/9.12.0",
+      "hashPath": "dotnetcore.validation.9.12.0.nupkg.sha512"
+    },
+    "FluentValidation/8.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gH9TOcn/l4WEG+h17z9sOPUf8rYX2NKBZ4hQjdPQWLeSyGlUiTCVVv6Dmpg2573Wtl2u1y11YmmhUO31gcZkeQ==",
+      "path": "fluentvalidation/8.5.0",
+      "hashPath": "fluentvalidation.8.5.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    },
+    "PjQuickFix.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PjQuickFix.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

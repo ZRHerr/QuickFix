@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pj.QuickFix.Infrastructure\PjQuickFix.Infrastructure.csproj" />
+    <ProjectReference Include="..\PjQuickFix.Database\PjQuickFix.Database.csproj" />
+    <ProjectReference Include="..\PjQuickFix.Domain\PjQuickFix.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
