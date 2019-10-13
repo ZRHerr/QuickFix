@@ -1,7 +1,6 @@
-﻿using PjQuickFix.Domain;
+﻿using Microsoft.EntityFrameworkCore;
+using PjQuickFix.Domain;
 using PjQuickFix.Model;
-using Microsoft.EntityFrameworkCore;
-using PjQuickFix.Model.Models;
 
 namespace PjQuickFix.Database
 {

@@ -1,11 +1,9 @@
 ﻿using DotNetCore.Objects;
-using PjQuickFix.CrossCutting.Resources;
 using PjQuickFix.Database;
 using PjQuickFix.Database.User;
 using PjQuickFix.Domain;
 using PjQuickFix.Infrastructure;
 using PjQuickFix.Model;
-using PjQuickFix.Model.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

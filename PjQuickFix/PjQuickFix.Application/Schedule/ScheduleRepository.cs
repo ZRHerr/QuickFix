@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.AspNetCore.Components;
+using PjQuickFix.Model;
+using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using PjQuickFix.Domain;
-using Microsoft.AspNetCore.Components;
-using PjQuickFix.Model;
 
-namespace PjQuickFix.Infrastructure
+namespace PjQuickFix.Application
 {
     public interface IScheduleRepository
     {
@@ -25,7 +22,7 @@ namespace PjQuickFix.Infrastructure
     public class ScheduleRepository : IScheduleRepository
     {
 
-        public ScheduleRepository(HttpClient httpClient, IUriHelper uriHelper)
+        public ScheduleRepository(HttpClient httpClient)
         {
             this.Client = httpClient;
         }

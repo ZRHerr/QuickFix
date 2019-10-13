@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 
-namespace PjQuickFix.Model
+namespace PjQuickFix.Web
 {
    public class NavMenuModel : ComponentBase
     {

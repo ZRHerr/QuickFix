@@ -1,4 +1,4 @@
-﻿namespace PjQuickFix.Model.Models
+﻿namespace PjQuickFix.Model
 {
     public class SignInModel
     {

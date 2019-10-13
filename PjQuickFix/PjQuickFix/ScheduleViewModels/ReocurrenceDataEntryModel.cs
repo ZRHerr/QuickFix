@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
+using PjQuickFix.Model;
 
-namespace PjQuickFix.Model
+namespace PjQuickFix.Web
 {
     public class ReocurrenceDataEntryModel : ComponentBase
     {
@@ -45,7 +46,7 @@ namespace PjQuickFix.Model
             }
         }
 
-        public async Task TimeChanged(UIChangeEventArgs args)
+        public async Task TimeChanged(ChangeEventArgs args)
         {
             if (EndTime != null)
                 return;

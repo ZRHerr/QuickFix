@@ -283,9 +283,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
+          "CronEspresso": "3.0.0",
           "DotNetCore.Validation": "9.12.0",
+          "FluentValidation": "8.5.0",
           "Microsoft.AspNetCore.Components": "3.0.0",
-          "Microsoft.Extensions.Identity.Stores": "3.0.0",
           "PjQuickFix.CrossCutting": "1.0.0"
         },
         "compile": {
@@ -732,8 +733,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "CronEspresso >= 3.0.0",
+      "DotNetCore.Validation >= 9.12.0",
       "Microsoft.AspNetCore.Components >= 3.0.0",
+      "Microsoft.Extensions.Identity.Stores >= 3.0.0",
       "PjQuickFix.Model >= 1.0.0"
     ]
   },
@@ -745,11 +747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
       "projectName": "PjQuickFix.Domain",
-      "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
+      "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
       "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\obj\\",
+      "outputPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -770,8 +772,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
-              "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
+            "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+              "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
             }
           }
         }
@@ -785,11 +787,15 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
-          "CronEspresso": {
+          "DotNetCore.Validation": {
+            "target": "Package",
+            "version": "[9.12.0, )"
+          },
+          "Microsoft.AspNetCore.Components": {
             "target": "Package",
             "version": "[3.0.0, )"
           },
-          "Microsoft.AspNetCore.Components": {
+          "Microsoft.Extensions.Identity.Stores": {
             "target": "Package",
             "version": "[3.0.0, )"
           }

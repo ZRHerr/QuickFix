@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PjQuickFix.Model.Models
+namespace PjQuickFix.Model
 {
     [Flags]
     public enum Roles

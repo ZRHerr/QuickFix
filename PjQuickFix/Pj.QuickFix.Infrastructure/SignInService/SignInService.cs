@@ -2,7 +2,7 @@
 using DotNetCore.Objects;
 using DotNetCore.Security;
 using PjQuickFix.CrossCutting.Resources;
-using PjQuickFix.Model.Models;
+using PjQuickFix.Model;
 using System;
 using System.Collections.Generic;
 using System.Security.Claims;

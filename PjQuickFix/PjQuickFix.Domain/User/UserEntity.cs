@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Identity;
-using PjQuickFix.Model.Models;
+using PjQuickFix.Model;
 using System.Collections.Generic;
 
 namespace PjQuickFix.Domain
@@ -10,6 +10,7 @@ namespace PjQuickFix.Domain
         (
             long userId,
             FullName fullName,
+            Email email,
             SignIn signIn,
             Roles roles,
             Status status
@@ -30,6 +31,7 @@ namespace PjQuickFix.Domain
         public long UserId { get; private set; }
 
         public FullName FullName { get; private set; }
+        public Email Email { get; private set; }
 
         public SignIn SignIn { get; private set; }
 
@@ -44,7 +46,10 @@ namespace PjQuickFix.Domain
             Roles = Roles.User;
             Status = Status.Active;
         }
-
+        public void ChangeEmail(string address)
+        {
+            Email = new Email(address);
+        }
         public void ChangeFullName(string name, string surname)
         {
             FullName = new FullName(name, surname);

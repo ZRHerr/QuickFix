@@ -1,4 +1,5 @@
 using PjQuickFix.Domain;
+using PjQuickFix.Model;
 using PjQuickFix.Model.Models;
 
 namespace PjQuickFix.Domain

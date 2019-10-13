@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 
 
-namespace PjQuickFix.Model.Models
+namespace PjQuickFix.Model
 {
     public sealed class AddUserModelValidator : UserModelValidator<AddUserModel>
     {

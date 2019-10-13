@@ -1,8 +1,9 @@
 ﻿using System;
 using Microsoft.AspNetCore.Components;
 using System.Linq;
+using PjQuickFix.Application;
 
-namespace PjQuickFix.Model
+namespace PjQuickFix.Web
 {
     class DayPickerModel : ComponentBase
     {

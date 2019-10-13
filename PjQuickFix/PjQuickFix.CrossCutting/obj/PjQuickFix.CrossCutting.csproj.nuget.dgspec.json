@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {}
+    "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
+    "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
         "projectName": "PjQuickFix.CrossCutting",
-        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

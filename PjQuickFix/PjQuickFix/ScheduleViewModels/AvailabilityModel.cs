@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components;
-using PjQuickFix.Model.Models.Enums;
+using Microsoft.AspNetCore.Components.Authorization;
+using PjQuickFix.Application;
+using PjQuickFix.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +9,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace PjQuickFix.Model
+namespace PjQuickFix.Web
 {
     public class AvailabilityModel : ComponentBase
     {
@@ -19,6 +21,7 @@ namespace PjQuickFix.Model
         public object CurrentUser { get; set; }
         public ScheduleItem NewScheduleItem { get; set; } = new ScheduleItem() { };
         public RecurringSchedule NewRecurringSchedule { get; set; }
+
         [Inject]
         public ScheduleState MyScheduleState { get; set; }
         [Inject]
@@ -35,20 +38,20 @@ namespace PjQuickFix.Model
 
         public ClaimsPrincipal _User;
 
-        protected override async Task OnInitializedAsync()
-        {
-            var state = await Context;
-            _User = state.User;
-            this.MyScheduleState.ScheduleId = _User.GetClaimValueAsInt(UserInfo.Claims.SCHEDULEID).Value;
+        //protected override async Task OnInitializedAsync()
+        //{
+        //    var state = await Context;
+        //    _User = state.User;
+        //    this.MyScheduleState.ScheduleId = _User.GetClaimValueAsInt(UserInfo.Claims.SCHEDULEID).Value;
 
-            this.ResetScheduleItem();
-            this.MySchedule = await ScheduleRepository.GetAvailability(MyScheduleState.ScheduleId);
+        //    this.ResetScheduleItem();
+        //    this.MySchedule = await ScheduleRepository.GetAvailability(MyScheduleState.ScheduleId);
 
-            this.MyScheduleState.SelectDate(SelectedDate);
-            this.MyScheduleState.Schedule = MySchedule;
-            await ExpandSchedule();
-            StateHasChanged();
-        }
+        //    this.MyScheduleState.SelectDate(SelectedDate);
+        //    this.MyScheduleState.Schedule = MySchedule;
+        //    await ExpandSchedule();
+        //    StateHasChanged();
+        //}
 
         private async Task ExpandSchedule()
         {

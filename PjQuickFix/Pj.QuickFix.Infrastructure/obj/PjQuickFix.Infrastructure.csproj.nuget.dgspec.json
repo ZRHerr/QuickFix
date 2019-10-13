@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj": {}
+    "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj": {
+    "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj",
         "projectName": "PjQuickFix.Infrastructure",
-        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\Pj.QuickFix.Infrastructure\\PjQuickFix.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\Pj.QuickFix.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\Pj.QuickFix.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
-                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj"
+              "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj"
               },
-              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
-                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
+              "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
               }
             }
           }
@@ -50,7 +50,15 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "DotNetCore.Security": {
+              "target": "Package",
+              "version": "[9.12.0, )"
+            },
             "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.0.0, )"
             },
@@ -70,6 +78,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -78,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
+    "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
         "projectName": "PjQuickFix.CrossCutting",
-        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -135,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
+    "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
         "projectName": "PjQuickFix.Domain",
-        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\PjQuickFix.Domain.csproj",
         "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Domain\\obj\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -163,8 +174,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
-                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
+              "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj"
               }
             }
           }
@@ -178,11 +189,15 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
-            "CronEspresso": {
+            "DotNetCore.Validation": {
+              "target": "Package",
+              "version": "[9.12.0, )"
+            },
+            "Microsoft.AspNetCore.Components": {
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "Microsoft.AspNetCore.Components": {
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[3.0.0, )"
             }
@@ -206,14 +221,14 @@
         }
       }
     },
-    "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
+    "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj",
+        "projectUniqueName": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj",
         "projectName": "PjQuickFix.Model",
-        "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj",
+        "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\PjQuickFix.Model.csproj",
         "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.Model\\obj\\",
+        "outputPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -234,8 +249,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\zacha\\source\\repos\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj"
+              "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\zacha\\source\\repos\\ZRHerr\\QuickFix\\PjQuickFix\\PjQuickFix.CrossCutting\\PjQuickFix.CrossCutting.csproj"
               }
             }
           }
@@ -249,15 +264,19 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "CronEspresso": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "DotNetCore.Validation": {
               "target": "Package",
               "version": "[9.12.0, )"
             },
-            "Microsoft.AspNetCore.Components": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[8.5.0, )"
             },
-            "Microsoft.Extensions.Identity.Stores": {
+            "Microsoft.AspNetCore.Components": {
               "target": "Package",
               "version": "[3.0.0, )"
             }

@@ -1,4 +1,4 @@
-﻿namespace PjQuickFix.Domain
+﻿namespace PjQuickFix.Model
 {
 	public class TimeSlotAvailability : TimeSlot
 	{

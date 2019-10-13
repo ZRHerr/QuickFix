@@ -1,8 +1,9 @@
 using DotNetCore.AspNetCore;
 using DotNetCore.IoC;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using PjQuickFix.Application;
+using PjQuickFix.Web;
 
 namespace PjQuickFix
 {
@@ -38,6 +39,11 @@ namespace PjQuickFix
             services.AddDatabaseServices();
             services.AddInfraServices();
             services.AddContext();
+            services.AddAuthorizationCore();
+
+            services.AddScoped<IScheduleRepository, ScheduleRepository>();
+            services.AddScoped<ScheduleState>();
+
         }
     }
 }

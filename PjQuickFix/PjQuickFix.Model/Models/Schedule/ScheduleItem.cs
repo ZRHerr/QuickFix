@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace PjQuickFix.Domain
+namespace PjQuickFix.Model
 {
 
 	/// <summary>

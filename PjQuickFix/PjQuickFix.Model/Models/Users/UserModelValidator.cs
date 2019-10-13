@@ -1,7 +1,7 @@
 ﻿using DotNetCore.Validation;
 using FluentValidation;
 
-namespace PjQuickFix.Model.Models
+namespace PjQuickFix.Model
 {
     public class UserModelValidator<T> : Validator<T> where T : UserModel
     {

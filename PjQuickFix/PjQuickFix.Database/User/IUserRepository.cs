@@ -1,6 +1,6 @@
 ﻿using DotNetCore.Repositories;
 using PjQuickFix.Domain;
-using PjQuickFix.Model.Models;
+using PjQuickFix.Model;
 using System.Threading.Tasks;
 
 namespace PjQuickFix.Database.User

@@ -2,7 +2,7 @@
 using FluentValidation;
 using PjQuickFix.CrossCutting.Resources;
 
-namespace PjQuickFix.Model.Models
+namespace PjQuickFix.Model
 {
     public sealed class SignInModelValidator : Validator<SignInModel>
     {

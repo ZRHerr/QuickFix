@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace System
+namespace PjQuickFix.Model
 {
   public static class DateTimeExtensions
   {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Identity;
-
-namespace PjQuickFix.Model.Models
+﻿namespace PjQuickFix.Model
 {
     public class AddUserModel : UserModel
     {

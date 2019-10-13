@@ -1,7 +1,8 @@
-﻿using System;
+﻿using PjQuickFix.Model;
+using System;
 using System.Collections.Generic;
 
-namespace PjQuickFix.Domain
+namespace PjQuickFix.Application
 {
     public class ScheduleState
     {

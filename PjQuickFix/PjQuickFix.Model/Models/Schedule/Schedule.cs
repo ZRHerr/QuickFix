@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace PjQuickFix.Domain
+namespace PjQuickFix.Model
 {
-  public class Schedule
+    public class Schedule
   {
 
 	public int Id { get; set; }

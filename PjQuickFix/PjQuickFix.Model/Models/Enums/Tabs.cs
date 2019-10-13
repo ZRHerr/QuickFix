@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PjQuickFix.Model.Models.Enums
+namespace PjQuickFix.Model
 {
     public enum Tabs
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 
-namespace PjQuickFix.Domain
+namespace PjQuickFix.Model
 {
 	[DebuggerDisplay("{Name}: {StartDateTime}-{EndDateTime}")]
 	public class TimeSlot

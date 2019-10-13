@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
+using PjQuickFix.Application;
+using PjQuickFix.Model;
 
-namespace PjQuickFix.Model
+namespace PjQuickFix.Web
 {
    public class ManagerScheduleModel : ComponentBase
     {
@@ -51,9 +53,5 @@ namespace PjQuickFix.Model
             this.MyScheduleState.DisplayEndDate = this.MyScheduleState.DisplayBeginDate.AddDays(7);
 
         }
-    }
-}
-
-    {
     }
 }

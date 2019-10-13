@@ -6,7 +6,7 @@ using System.Threading;
 using CronEspresso.NETCore.Utils;
 using PjQuickFix.Model;
 
-namespace PjQuickFix.Domain
+namespace PjQuickFix.Model
 {
   /// <summary>
   /// An event that re-occurs on the schedule given a recurrence pattern defined in CronPattern

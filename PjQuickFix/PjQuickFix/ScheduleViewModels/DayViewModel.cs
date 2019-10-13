@@ -1,7 +1,9 @@
 ﻿using System;
 using Microsoft.AspNetCore.Components;
+using PjQuickFix.Application;
+using PjQuickFix.Model;
 
-namespace PjQuickFix.Model
+namespace PjQuickFix.Web
 {
     class DayViewModel : ComponentBase
     {
@@ -25,7 +27,7 @@ namespace PjQuickFix.Model
 
         [Inject]
         [Parameter]
-        public Data.ScheduleState MyScheduleState { get; set; }
+        public ScheduleState MyScheduleState { get; set; }
 
         [Parameter]
         public DateTime DayViewStart { get; set; } = DateTime.Today.AddHours(8);

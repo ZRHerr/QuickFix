@@ -1,5 +1,5 @@
 ﻿using DotNetCore.Objects;
-using PjQuickFix.Model.Models;
+using PjQuickFix.Model;
 
 namespace PjQuickFix.Infrastructure
 {
