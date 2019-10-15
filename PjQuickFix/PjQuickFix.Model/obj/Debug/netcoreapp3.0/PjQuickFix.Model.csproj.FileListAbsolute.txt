@@ -1,0 +1,11 @@
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\bin\Debug\netcoreapp3.0\PjQuickFix.Model.deps.json
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\bin\Debug\netcoreapp3.0\PjQuickFix.Model.dll
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\bin\Debug\netcoreapp3.0\PjQuickFix.Model.pdb
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\bin\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.dll
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\bin\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.pdb
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\obj\Debug\netcoreapp3.0\PjQuickFix.Model.csprojAssemblyReference.cache
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\obj\Debug\netcoreapp3.0\PjQuickFix.Model.AssemblyInfoInputs.cache
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\obj\Debug\netcoreapp3.0\PjQuickFix.Model.AssemblyInfo.cs
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\obj\Debug\netcoreapp3.0\PjQuickFix.Model.csproj.CopyComplete
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\obj\Debug\netcoreapp3.0\PjQuickFix.Model.dll
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.Model\obj\Debug\netcoreapp3.0\PjQuickFix.Model.pdb

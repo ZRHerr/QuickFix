@@ -1,0 +1,10 @@
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\bin\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.deps.json
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\bin\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.dll
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\bin\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.pdb
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\obj\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.csprojAssemblyReference.cache
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\obj\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.Resources.Texts.resources
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\obj\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.csproj.GenerateResource.cache
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\obj\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\obj\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.AssemblyInfo.cs
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\obj\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.dll
+C:\Users\zacha\Documents\GitHub\QuickFix\PjQuickFix\PjQuickFix.CrossCutting\obj\Debug\netcoreapp3.0\PjQuickFix.CrossCutting.pdb
