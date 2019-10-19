@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 namespace PjQuickFix.Domain
 {
-    public class UserEntity : IdentityUser
+    public class UserEntity 
     {
         public UserEntity
         (
             long userId,
             FullName fullName,
-            Email email,
+            Email Email,
             SignIn signIn,
             Roles roles,
             Status status
@@ -18,6 +18,7 @@ namespace PjQuickFix.Domain
         {
             UserId = userId;
             FullName = fullName;
+            Email email;
             SignIn = signIn;
             Roles = roles;
             Status = status;
@@ -31,7 +32,8 @@ namespace PjQuickFix.Domain
         public long UserId { get; private set; }
 
         public FullName FullName { get; private set; }
-        public Email Email { get; private set; }
+      
+        public Email Email { get; private set;}
 
         public SignIn SignIn { get; private set; }
 

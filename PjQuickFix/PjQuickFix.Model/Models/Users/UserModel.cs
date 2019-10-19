@@ -6,8 +6,8 @@
 
         public FullNameModel FullName { get; set; }
 
-        public string Email { get; set; }
 
+        public string Email { get; set; }
         public Roles Roles { get; set; }
     }
 }

@@ -21,7 +21,6 @@ namespace PjQuickFix
             application.UseResponseCaching();
             application.UseStaticFiles();
             application.UseEndpoints(endpoints => endpoints.MapControllers());
-            application.UseSpa();
         }
 
         public void ConfigureServices(IServiceCollection services)
@@ -33,7 +32,6 @@ namespace PjQuickFix
             services.AddResponseCaching();
             services.AddControllers();
             services.AddMvcJson();
-            services.AddSpa();
             services.AddFileService();
             services.AddApplicationServices();
             services.AddDatabaseServices();

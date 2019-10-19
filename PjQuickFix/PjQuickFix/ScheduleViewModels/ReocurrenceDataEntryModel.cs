@@ -46,7 +46,7 @@ namespace PjQuickFix.Web
             }
         }
 
-        public async Task TimeChanged(ChangeEventArgs args)
+        public void TimeChanged(ChangeEventArgs args)
         {
             if (EndTime != null)
                 return;

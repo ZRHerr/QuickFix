@@ -46,7 +46,7 @@ namespace PjQuickFix.Web
             this.SelectedDate = this.SelectedDate.AddDays(daysToChange);
         }
 
-        protected override async Task OnParametersSetAsync()
+        protected override void OnParametersSet()
         {
 
             this.MyScheduleState.DisplayBeginDate = this.SelectedDate.Subtract(TimeSpan.FromDays((int)this.SelectedDate.DayOfWeek));

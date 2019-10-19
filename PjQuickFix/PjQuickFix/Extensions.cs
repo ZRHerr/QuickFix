@@ -43,15 +43,5 @@ namespace PjQuickFix.Web
             services.AddJsonWebToken(Guid.NewGuid().ToString(), TimeSpan.FromHours(12));
             services.AddAuthenticationJwtBearer();
         }
-
-        public static void AddSpa(this IServiceCollection services)
-        {
-            services.AddSpaStaticFiles("Frontend/dist");
-        }
-
-        public static void UseSpa(this IApplicationBuilder application)
-        {
-            application.UseSpaAngularServer("Frontend", "development");
-        }
     }
 }

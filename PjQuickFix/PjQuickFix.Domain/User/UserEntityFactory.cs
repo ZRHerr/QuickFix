@@ -21,7 +21,7 @@ namespace PjQuickFix.Domain
                     addUserModel.FullName.Name,
                     addUserModel.FullName.Surname
                 ),
-                new Email(addUserModel.Email),
+                new Email (addUserModel.Email),
                 new SignIn
                 (
                     addUserModel.SignIn.Login,
